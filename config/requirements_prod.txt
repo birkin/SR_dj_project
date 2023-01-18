@@ -4,6 +4,7 @@
 #
 #    pip-compile ./temp_requirements.in
 #
+## note: Some packages are downgraded from `requirements.txt` for python 3.6x compatibility.
 asgiref==3.4.1
     # via django
 certifi==2022.12.7
